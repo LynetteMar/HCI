@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+body{
+	color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
+
+bold{
+    font-weight: 900;
+}
+h1 {
+    text-align: center;
+    font-family: avenir, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;   
+}
+
+h2 {
+    font-size: 20px;
+    font-family: avenir, sans-serif;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+    color: white;
+    background: black;
+    width: 100%;
+    font-weight: 800;
+}
+
+.important{
+    background: red;
+}
+
+.content ul{
+    list-style: square;
+    padding-left: 40px;
+}
+
+#title a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+#title a:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.first-p{
+    font-weight: 800;
+    font-style: italic;
+}
+
+strong{
+    font-weight: 900;
+}
+
+italic{
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+    margin: 1em;
+}
+
+.header h1, .header h2, .header h3{
+    text-align: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav-black{
+    background-color: black;
+}
+
+.nav-blue{
+    background-color: #01A1BF;
+}
+
+.nav-green{
+    background-color: #68BF66;
+}
+
+.nav-yellow{
+    background-color: #FFE300;
+}
+
+.nav-red{
+    background-color: #BF5F47;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li ul li a{
+    color: black;
+}
+
+#menu{
+    margin: 10px;
+}
+
+#menu li{
+    margin: 10px;padding: 10px;
+}
+
+img{
+    width: 80%;
+}
+
+video{
+    width: 70%;
+    max-height: 400px;
+    background: #FFE300;
+    padding: 10%;
+}
+
+.first{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1000px){
+    {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+
+  grid-template-areas: 
+        "title"
+        "menu"
+        "main"; 
+}
+
+.header{
+  grid-area: title;
+} 
+
+.main{
+    grid-area: main;
+    
+}
+
+.menutoggle a{
+    color: dimgrey !important;
+}
+
+.menutoggle a:hover{
+    color: rgba(0,0,0,0.9) !important;
+}
+
+
+
+#menu {
+  grid-area: menu;
+}
+
+#menu li{
+    border-radius: 10px;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+}
+
+.menutoggle {
+  margin-left: auto;
+}
+
+.menutoggle a{
+  font-size: 2em;
+  color: #000;
+  text-decoration: none;
+}
+
+.active {
+  display: initial;
+}
+
+.inactive {
+  display: none;
+}
+/*HEADER*/
+/*NAV*/
+
+nav ul li:hover, .current {
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+nav > ul > li > a {
+  color: #000;
+  text-decoration: none;
+}
+/*NAV*/
+
+#intro{
+        display: flex;
+        flex-flow: column;
+    }
+
+@media only screen and (min-width: 1000px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+    grid-template-areas: 
+          "title"
+          "menu"
+          "main"; 
+  }
+
+    /*MENUTOGGLE*/
+    .menutoggle {
+        display: none;
+    }
+
+    .active, .inactive {
+        display: initial;
+    }
+    /*MENUTOGGLE*/
+    
+    /*NAV*/
+    nav {
+      display: flex;
+      padding: 0;
+      margin: 0;
+
+    }
+
+    nav ul {
+      display: flex;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+    }
+
+    nav ul li {
+      display: flex;
+      margin: 0;
+        flex-flow: column;
+
+    }
+
+    nav ul li ul{
+          display: flex;
+      margin: 0;
+        font-size: 10px;
+    }
+
+    nav ul li:hover ul {display: block;}
+    nav ul li ul{
+      display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row;
+    }
+    nav ul{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+    nav ul li {
+        flex-basis: 30em;
+        align-content: stretch;
+        display: flex;
+        padding: 0.4em;
+        margin: 0;
+        flex-wrap: wrap;
+        list-style: none;
+        border: none;
+    }
+    /*NAV*/
+    
+    #intro{
+        display: flex;
+        flex-flow: row;
+    }
+    
+    #left{
+        display: flex;
+        flex-flow: column;
+    }
+    
+    #left-1{
+        display: flex;
+        flex-flow: row;
+    }
+}
+
+html{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background:;
+}

@@ -34,6 +34,15 @@ h3 {
     padding-top: 15px;
 }
 
+.content a{
+    color: #01A1BF;
+}
+
+.content a:hover{
+    background: #01A1BF;
+    color: #ffffff;
+}
+
 .important{
     background: red;
 }
@@ -299,12 +308,12 @@ nav > ul > li > a {
         flex-flow: row;
     }
     
-    #left{
+    .left{
         display: flex;
         flex-flow: column;
     }
     
-    #left-1{
+    .left-1{
         display: flex;
         flex-flow: row;
     }

@@ -26,11 +26,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
-    color: white;
-    background: black;
+  font-size: 22px;
+    color: #000;
     width: 100%;
-    font-weight: 800;
+    font-weight: 300;
+    padding-bottom: 10px;
 }
 
 .important{
@@ -104,16 +104,10 @@ nav ul li ul li a{
     color: black;
 }
 
-#menu{
-    margin: 10px;
-}
-
-#menu li{
-    margin: 10px;padding: 10px;
-}
-
 img{
     width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 video{
@@ -167,14 +161,17 @@ body{
     color: rgba(0,0,0,0.9) !important;
 }
 
-
-
 #menu {
   grid-area: menu;
 }
 
 #menu li{
     border-radius: 10px;
+    margin: 10px;
+}
+
+#menu{
+    margin: 10px;
 }
 
 /*HEADER*/
@@ -290,7 +287,6 @@ nav > ul > li > a {
         flex-basis: 30em;
         align-content: stretch;
         display: flex;
-        padding: 0.4em;
         margin: 0;
         flex-wrap: wrap;
         list-style: none;

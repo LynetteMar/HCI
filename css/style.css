@@ -141,6 +141,13 @@ video{
     padding: 10%;
 }
 
+#labweeks video{
+    width: 50% !important;
+    padding: 0%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 .first{
     margin-top: 5%;
     margin-bottom: 5%;

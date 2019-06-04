@@ -126,7 +126,7 @@ img{
 }
 
 #labweeks img{
-    width: 20% !important;
+    width: 50% !important;
 }
 
 video{
@@ -325,6 +325,10 @@ nav > ul > li > a {
     .left-1{
         display: flex;
         flex-flow: row;
+    }
+    #labweeks{
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 

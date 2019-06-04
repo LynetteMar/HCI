@@ -6,3 +6,5 @@ document.getElementsByClassName('menutoggle')[0].onclick = function () {
 		menu.className = "active";
 	}
 }
+
+

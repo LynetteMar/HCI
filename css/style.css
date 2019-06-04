@@ -60,7 +60,6 @@ h3{
     background: none;
     color: #000;
     text-decoration: none;
-    text-shadow:-0.03em 0 0 #00ffff, 0.03em 0 0 #ff00ff;
     transition: .1s ease-in-out;
 }
 
@@ -78,6 +77,11 @@ h3{
     font-size: 130%;
     width: 30%;
     text-align: center;
+}
+      
+#labweeks h1{
+    font-size: 300%;
+    text-shadow:-0.03em 0 0 #00ffff, 0.03em 0 0 #ff00ff;
 }
 
 .important{

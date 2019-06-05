@@ -83,6 +83,10 @@ h3{
     text-shadow:-0.03em 0 0 #00ffff, 0.03em 0 0 #ff00ff;
 }
 
+#pinboard{
+    text-align: center;
+}
+
 .important{
     background: red;
 }

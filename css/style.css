@@ -169,7 +169,7 @@ img{
     padding-right: 5%;
 }
 
-#labweeks img{
+#labweeks img, #cv img{
     width: 50% !important;
     padding-left: 20%;
     padding-right: 20%;

@@ -56,8 +56,12 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_3c.mp4" type="video/mp4">
                     </video>
+                    <p>De positie van de draadjes</p>
+                    <figure>
+                        <img src="img/arduino_3c_bb.png" alt="">
+                    </figure>
                     <p>
-                        Het was hier de opdracht om ervoor te zorgen dat het groene led lampje twee keer sneller knippert dan het gele led lampje. 
+                    Het was hier de opdracht om ervoor te zorgen dat het groene led lampje twee keer sneller knippert dan het gele led lampje. Ik moest de verbinddraadjes in de juiste pins (rondjes) plaatsen zodat de lampjes aan konden gaan. Met de code heb ik toen aangegeven dat het gele lampje eerst helemaal aan moest terwijl het groene lampje uit was. Na een vertraging moest het groene lampje uit en aan gaan waarna het gele lampje uit ging en het groene lampje weer aan en zo voorts. Deze code staat in een loop wat betekend dat het steeds opnieuw zal gaan.
                     </p>
                     <h2>Opdracht 4c</h2>
                     <figure>
@@ -66,7 +70,11 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_4c.mp4" type="video/mp4">
                     </video>
-                    <p>
+                    <figure>
+                        <img src="img/arduino_4c_bb.png" alt="">
+                    </figure>
+                    <p>De opdracht was het controleren van de helderheid van de led lampjes. Niet alle pins zijn hiervoor geschikt. Het moeten pins zijn die geschikt zijn voor Pulse Width Modulation (PWM) op deze manier kan het led lampje gedimd worden. 
+                    De positie van de draadjes en de led lampjes zijn op het Arduino board en Breadboard niet veel veranderd, behalve dat de draadjes nu in een andere pin zitten. Het was de bedoeling dat een led lampje langzaam vervaagd terwijl de andere langzaam helderder wordt. In de code kan je in de loop zien dat het groene led lampje "bright" wordt, terwijl het gele led lampje minder "bright" wordt. Omdat dit in een loop zit, wordt het herhaald.
                     </p>
                     <h2>Opdracht 6c</h2>
                     <figure>
@@ -75,7 +83,11 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_6c.mp4" type="video/mp4">
                     </video>
+                    <figure>
+                        <img src="img/arduino_6c_bb.png" alt="">
+                    </figure>
                     <p>
+                    Het was hier de opdracht dat een led lampje vervaagd terwijl het andere helderder wordt door middel van het draaien van de potentiometer. Een potentiometer kan gedraaid worden en hier kan code aan gehangen worden zodat het draaien van de potentiometer iets veranderd. In dit geval veranderd het draaien aan de potentiometer dat het ene led lampje vervaagd en dat het andere helderder wordt.
                     </p>
                     <h2>Opdracht 7</h2>
                     <figure>
@@ -84,7 +96,11 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_7.mp4" type="video/mp4">
                     </video>
+                    <figure>
+                        <img src="img/arduino_7_bb.png" alt="">
+                    </figure>
                     <p>
+                    In de vorige opdracht heb ik ervoor gezorgd dat de de led lampjes door de potentiometer werden gecontroleerd. In deze opdracht is het de bedoeling dat de led lampjes door een andere sensor worden gecontroleerd. Nu moeten de led lampjes door een LDR (light dependent resistor). Deze sensor meet de hoeveelheid licht, het is een soortgelijke sensor als de sensor die gebruikt wordt om lantaarnpalen aan te laten gaan.
                     </p>
                     <h2>Opdracht 8</h2>
                     <figure>
@@ -94,7 +110,10 @@
                     <video controls preload>
                       <source src="img/arduino_8.mp4" type="video/mp4">
                     </video>
-                    <p>
+                    <figure>
+                        <img src="img/arduino_8_bb.png" alt="">
+                    </figure>
+                    <p>Bij deze opdracht was het de bedoeling om uit te leggen hoe de formule van de voltage divider in de praktijk werkt. Een voltage divider is een opstelling van het Arduino Board (een circuit) dat een lage spanning veranderd in een lagere spanning door gebruik van twee resistoren en een input kan er dan een output gecreeërd worden dat een fractie van de input is. De eerste vraag van de opdracht was wat er zou gebeuren als beide voltage dividers LDR's waren. Het antwoord daarop is dat de ene ldr er voor zorgd dat de waarden lager worden als er minder licht binnenkomt. Bij de andere ldr wordt de spanning hoger als er minder licht binnenkomt. Als beiden bedekt worden en dus geen licht opvangen, word de spanning gemiddeld en als ze beiden licht ontvangen ook. 
                     </p>
                     <h2>Opdracht 9b</h2>
                     <video muted controls loop preload autoplay>
@@ -103,6 +122,7 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_9b_.mp4" type="video/mp4">
                     </video>
+                    <p>Voor deze opdracht heb ik hetzelfde circuit als opdracht 6 gebruikt. Het was de bedoeling dat Arduino en Processing samen zouden werken zodat er een input device ontstaat dat invloed uitoefend op het virtuele programma van Processing. Ik heb een driehoek gemaakt dat verticaal flipt als een gebruiker aan de potentiometer draait.</p>
                     <p>
                     </p>
                     <h2>Opdracht 10f</h2>
@@ -112,7 +132,10 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_10f.mp4" type="video/mp4">
                     </video>
-                    <p>
+                    <figure>
+                        <img src="img/arduino_10f_bb.png" alt="">
+                    </figure>
+                    <p>Bij deze opdracht moest ik twee knoppen (buttons) toevoegen zodat het led lampje aangaat als er een van de twee knoppen wordt ingedrukt. Als beide knoppen worden ingedrukt, moet het led lampje niet aan gaan. Hiervoor heb ik een if else function gecreeërd. Deze functie geeft letterlijk aan als (voorwaarde) dan gebeurd er (dit). Dus als de knop links of de knop rechts wordt ingedrukt dan moet het lampje aan, maar als de knoppen samen worden ingedrukt dan moet het lampje niet aan.
                     </p>
                     <h2>Opdracht 11b</h2>
                     <figure>
@@ -121,16 +144,23 @@
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_11b.mp4" type="video/mp4">
                     </video>
-                    <p>
+                    <figure>
+                        <img src="img/arduino_11b_bb.png" alt="">
+                    </figure>
+                    <p>Servomoters (servo) zijn motoren die op een precieze positie gedraaid kunnen worden. Het was de bedoeling om de code zo aan te passen dat de servo op een interessante en ritmische manier zal bewegen. Pos is de positie van de servo. Ik heb positie van de servo aangepast en waarden tussen 0 en 150 ingevuld.
                     </p>
                     <h2>Opdracht 12b</h2>
                     <figure>
                         <img src="img/arduino_12b.png" alt="">
                     </figure>
+                    <figure>
+                        <img src="img/arduino_12b_bb.png" alt="">
+                    </figure>
                     <video muted controls loop preload autoplay>
                       <source src="img/arduino_12b.mp4" type="video/mp4">
                     </video>
                     <p>
+                    Bij deze opdracht was het de bedoeling om twee knoppen toe te voegen. Deze knoppen moeten de servo controleren. De ene knop moet ervoor zorgen dat de servo met de klok mee beweegt en de andere moet ervoor zorgen dat de servo tegen de klok in beweegt. Serial.print("links) geeft aan wat de linkerknop doet en Serial.print("rechts") geeft aan wat de rechterknop doet. Zoals eerder vermeeld laat "pos" zien wat de positie van de servo is.   
                     </p>
                     <h2>Opdracht 13b</h2>
                     <video muted controls loop preload autoplay>
@@ -140,7 +170,15 @@
                     <video controls preload>
                       <source src="img/arduino_13b_sound.mp4" type="video/mp4">
                     </video>
+                    <figure>
+                        <img src="img/arduino_13b_bb.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="img/arduino_13b_sounddiagram.png" alt="">
+                        <figcaption>Geluidsdiagram</figcaption>
+                    </figure>
                     <p>
+                    In deze opdracht moest ik een creatieve melodie creeëren met behulp van frequenties. Deze frequenties stonden in het geluidsdiagram. Ik heb de melodie van Twinkle Twinkle Little Star opgezocht en de juiste frequenties in het geluidsdiagram opgezocht. Daarna heb ik per regel de juiste frequentie erbij gezet met daarachter hoelang de noot wordt afgespeeld. Tussen de noten van een zin zit een vertraging van 400ms en tussen twee zinnen zit een vertraging van 800 ms om aan te geven dat het een nieuwe zin is. Ook omdat er normaal in het afspelen van liedjes breaks zitten tussen verschillende onderdelen van het nummer.
                     </p>
                 </article>
             </div>

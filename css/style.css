@@ -183,6 +183,12 @@ img{
     padding-right: 20%;
 }
 
+#arduino img, #arvr img{
+    width: 50% !important;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 video{
     width: 70%;
     max-height: 400px;

@@ -397,7 +397,8 @@ nav > ul > li > a {
         display: flex;
         flex-flow: row;
     }
-    #labweeks{
+    
+    #labweeks, #arvr, #ardu, #vrenv {
         padding-left: 15%;
         padding-right: 15%;
     }

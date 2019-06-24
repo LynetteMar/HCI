@@ -189,6 +189,10 @@ img{
     padding-right: 25%;
 }
 
+#pfi figure{
+    width: 100% !important;
+}
+
 video{
     width: 70%;
     max-height: 400px;
@@ -405,6 +409,11 @@ nav > ul > li > a {
         justify-content: space-between;
         flex-flow: wrap;
     }
+    
+    #pfi figure{
+        width: 400% !important;
+    }
+
 }
 
 html{
